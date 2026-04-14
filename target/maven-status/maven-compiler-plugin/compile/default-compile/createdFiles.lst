@@ -1,0 +1,13 @@
+org\example\shapetool\TriangleResponse.class
+org\example\shapetool\ShapeEndpoint.class
+org\example\shapetool\ParallelogramResponse.class
+org\example\shapetool\ShapetoolrestApplication.class
+org\example\shapetool\TriangleRequest.class
+org\example\shapetool\WebServiceConfig.class
+org\example\shapetool\RectangleRequest.class
+org\example\shapetool\SquareRequest.class
+org\example\shapetool\ParallelogramRequest.class
+org\example\shapetool\CircleResponse.class
+org\example\shapetool\SquareResponse.class
+org\example\shapetool\CircleRequest.class
+org\example\shapetool\RectangleResponse.class
