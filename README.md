@@ -1,12 +1,21 @@
 # ShapeTool SOAP Web Service
 
+
+## 👤 Author
+
+Name: Bethlehem Yalelet  
+ID: 145614 
+Department: Software Engineering  
+University: Woldia University  
+Year: 5th Year (2026)
+
 ## 📌 Project Overview
 
 ShapeTool is a SOAP-based web service developed as part of the Web Service course assignment for 5th Year Software Engineering students at Woldia University (2026).
 
 The system calculates the area of different geometric shapes using a contract-first approach. The XML Schema (XSD) is designed first to define the structure of request and response messages, followed by the implementation of the SOAP web service.
 
----
+
 
 ## 🛠️ Technologies Used
 
@@ -64,7 +73,6 @@ The XML Schema (`shapes.xsd`) defines all request and response structures.
 </circleAreaResponse>
 ```
 
----
 
 ## 📄 WSDL Description
 
@@ -76,12 +84,15 @@ The WSDL file defines:
 * Service endpoint
 
 ### Endpoint:
+SOAP Service Endpoint:
+```
+http://localhost:8080/ws
+```
+WSDL URL:
 
 ```
 http://localhost:8080/ws/shapes.wsdl
 ```
-
----
 
 ## ⚙️ Service Implementation
 
@@ -94,7 +105,6 @@ Each operation:
 * Computes area using correct formula
 * Returns a structured SOAP response
 
----
 
 ## ✅ Validation Logic
 
@@ -114,7 +124,7 @@ Validation is implemented in the endpoint layer.
 | Missing base      | "Triangle error: base is required"               |
 | Invalid rectangle | "Rectangle error: length must be greater than 0" |
 
----
+
 
 ## ⚠️ SOAP Fault Handling
 
@@ -129,7 +139,7 @@ Invalid requests return SOAP Fault responses.
 </SOAP-ENV:Fault>
 ```
 
----
+
 
 ## 🧪 Testing
 
@@ -147,7 +157,7 @@ All test cases are stored in:
 test-cases/
 ```
 
----
+
 
 ## ▶️ How to Run the Project
 
@@ -165,7 +175,7 @@ test-cases/
    ```
 5. Test using SoapUI
 
----
+
 
 ## 📁 Project Structure
 
@@ -180,7 +190,7 @@ shapetool/
  ├── pom.xml
 ```
 
----
+
 
 ## 🎯 Conclusion
 
@@ -193,4 +203,4 @@ This project demonstrates:
 
 The ShapeTool system successfully meets all assignment requirements and provides a fully functional SOAP-based service for geometric calculations.
 
----
+
